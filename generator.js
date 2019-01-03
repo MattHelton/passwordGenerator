@@ -1,6 +1,6 @@
 let generator = document.getElementById('generate')
 
-const digitArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '@', '#', '$', '%', '&']
+const digitArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '@', '#', '$', '%', '&']
 let pwArray = []
 
 function randomCharacter (max) {
@@ -12,13 +12,13 @@ function generate (num) {
 }
 
 function assignFirstDigit () {
-    let first = digitArray[randomCharacter(25)]
+    let first = digitArray[randomCharacter(51)]
     pwArray.push(first)
 }
 
 function buildPasswordArray () {
     for (let i = 0; i < 15; i++) {
-        pwArray.push(generate(42))
+        pwArray.push(generate(67))
     }
 }
 

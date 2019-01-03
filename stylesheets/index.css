@@ -1,0 +1,21 @@
+body {
+    background-color: #393D3F
+}
+
+button {
+    background-color: #0496FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #generatedPassword {
+      color: #9CC4B2;
+      text-align: center;
+      font-size: 36px;
+  }
+
