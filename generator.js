@@ -44,6 +44,10 @@ function deleteElement (el) {
     }
 }
 
+function copyPassword () {
+    
+}
+
 generator.addEventListener('click', function () {
     let generatedPassword = document.getElementById('generatedPassword')
     deleteElement(generatedPassword)
